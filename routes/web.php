@@ -17,3 +17,4 @@ use App\Http\Controllers\PegawaiAPIController;
 
 Route::get('covid', [CovidAPIController::class, 'index']);
 Route::get('pegawai', [PegawaiAPIController::class, 'index']);
+Route::get('pegawai/api', [PegawaiAPIController::class, 'api']);
